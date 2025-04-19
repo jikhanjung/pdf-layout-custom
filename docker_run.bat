@@ -1,0 +1,1 @@
+docker run --rm --name pdf-document-layout-analysis --gpus '"device=0"' -p 5060:5060 --entrypoint ./start.sh huridocs/pdf-document-layout-analysis:v0.0.23
